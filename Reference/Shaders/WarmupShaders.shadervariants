@@ -1,0 +1,447 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WarmupShaders
+  m_Shaders:
+  - first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON SHADOWS_SHADOWMASK
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL FOG_LINEAR
+        passType: 4
+      - keywords: DIRECTIONAL FOG_LINEAR LIGHTMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL FOG_LINEAR LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL FOG_LINEAR LIGHTMAP_ON LIGHTPROBE_SH
+        passType: 4
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 0044376b9d9f48e448d29dbdd718dced, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 07b22d86179c0d741a4202d4d0c395bb, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: 
+        passType: 4
+  - first: {fileID: 4800000, guid: 1249d1817f72e35459cede186e6285d9, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 1
+      - keywords: FOG_LINEAR
+        passType: 1
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL FOG_LINEAR
+        passType: 4
+      - keywords: DIRECTIONAL FOG_LINEAR LIGHTMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL FOG_LINEAR LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL FOG_LINEAR LIGHTMAP_ON LIGHTPROBE_SH
+        passType: 4
+  - first: {fileID: 4800000, guid: 185bfafd50ced0548ae8f7787aea3c35, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 1baef59f5447c794b9d392aa4e36895e, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 1e8ea849032394f44b9d06d4ffc36110, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: 
+        passType: 1
+      - keywords: FOG_LINEAR
+        passType: 1
+  - first: {fileID: 4800000, guid: 22f4bdfb64d9b094da30c1b82c4d6a05, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 24cab2ebcd724ce4ab849c5b4925876e, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL FOG_LINEAR
+        passType: 4
+      - keywords: DIRECTIONAL FOG_LINEAR LIGHTMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL FOG_LINEAR LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL FOG_LINEAR LIGHTMAP_ON LIGHTPROBE_SH
+        passType: 4
+  - first: {fileID: 4800000, guid: 252fb8900ef94954ea47bbfeb7b1038a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: FOG_LINEAR
+        passType: 0
+  - first: {fileID: 4800000, guid: 291f0d5b6045f4646847c59b4ce13ac5, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 35fee12e84e7b3a4d8b43489b4ed9e3c, type: 3}
+    second:
+      variants: []
+  - first: {fileID: 4800000, guid: 3a901f7a9a0c1d548a8d1e3ceecc296c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL FOG_LINEAR
+        passType: 4
+      - keywords: DIRECTIONAL FOG_LINEAR LIGHTMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL FOG_LINEAR LIGHTPROBE_SH
+        passType: 4
+  - first: {fileID: 4800000, guid: 3c0ea59a3dc9b2041af533e6bd5cc578, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL FOG_LINEAR
+        passType: 4
+      - keywords: DIRECTIONAL FOG_LINEAR LIGHTMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL FOG_LINEAR LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL FOG_LINEAR LIGHTMAP_ON LIGHTPROBE_SH
+        passType: 4
+      - keywords: INSTANCING_ON SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 3d41d90e8cac75347b05c152d58af59c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 460ccfc0f245465488515b08cbeb59a4, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: UNITY_UI_CLIP_RECT
+        passType: 0
+      - keywords: UNITY_UI_ALPHACLIP
+        passType: 0
+      - keywords: UNITY_UI_ALPHACLIP UNITY_UI_CLIP_RECT
+        passType: 0
+  - first: {fileID: 4800000, guid: 47e1b7b7597255e4fa33d2a8e946ac32, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: DIRECTIONAL
+        passType: 0
+      - keywords: DIRECTIONAL LIGHTMAP_ON
+        passType: 0
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 0
+      - keywords: DIRECTIONAL FOG_LINEAR
+        passType: 0
+  - first: {fileID: 4800000, guid: 4ceb73bc148699b469361531d6062548, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: UNITY_COLORSPACE_GAMMA
+        passType: 0
+      - keywords: ANTI_FLICKER
+        passType: 0
+      - keywords: ANTI_FLICKER UNITY_COLORSPACE_GAMMA
+        passType: 0
+  - first: {fileID: 4800000, guid: 506cbecfb2a4f29489f2a634e25177e8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: MESH MIRROR_OFF SCALE_OFF
+        passType: 0
+      - keywords: BILLBOARD MIRROR_OFF SCALE_OFF
+        passType: 0
+  - first: {fileID: 4800000, guid: 547acec712aa2a24d920908ba18f379f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: SHADOWS_DEPTH
+        passType: 4
+      - keywords: SHADOWS_CUBE
+        passType: 4
+      - keywords: SHADOW_SWITCH
+        passType: 4
+      - keywords: FLASH_SWITCH
+        passType: 4
+      - keywords: FLASH_SWITCH SHADOW_SWITCH
+        passType: 4
+  - first: {fileID: 4800000, guid: 5b2412e5f1b29d442a49229830f559cc, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 61128d5ee2cd8f84c938123227141692, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: FOG_LINEAR
+        passType: 0
+  - first: {fileID: 4800000, guid: 67c41e3f2e9a86c4cb46b2a892a2324a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: 
+        passType: 1
+      - keywords: FOG_LINEAR
+        passType: 1
+  - first: {fileID: 4800000, guid: 6b99d879cbd5e0243a3de6b0c6618358, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 6bfdc031740e98e47a3bab37c10e091a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 6cf92173d2a8d114facdb772ef4465ab, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: SHADOWS_DEPTH
+        passType: 4
+      - keywords: SHADOWS_CUBE
+        passType: 4
+      - keywords: FLASH_SWITCH
+        passType: 4
+      - keywords: SHADOW_SWITCH
+        passType: 4
+      - keywords: FLASH_SWITCH SHADOW_SWITCH
+        passType: 4
+  - first: {fileID: 4800000, guid: 73e0d8deda0264f41b7ecb2484ab37c4, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 834db2dc85fc59d4bbb6c660df05f949, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: DIRECTIONAL
+        passType: 0
+      - keywords: DIRECTIONAL LIGHTMAP_ON
+        passType: 0
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 0
+      - keywords: DIRECTIONAL LIGHTMAP_ON LIGHTPROBE_SH
+        passType: 0
+  - first: {fileID: 4800000, guid: 83ecebfa02d9f15449e9f38ba434233c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: FOG_LINEAR
+        passType: 0
+  - first: {fileID: 4800000, guid: 8ce0a6f4c8cae334d8a5617f302b6769, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: BLOOM
+        passType: 0
+      - keywords: UNITY_COLORSPACE_GAMMA
+        passType: 0
+      - keywords: BLOOM UNITY_COLORSPACE_GAMMA
+        passType: 0
+      - keywords: COLOR_GRADING
+        passType: 0
+      - keywords: BLOOM COLOR_GRADING
+        passType: 0
+      - keywords: COLOR_GRADING UNITY_COLORSPACE_GAMMA
+        passType: 0
+      - keywords: BLOOM COLOR_GRADING UNITY_COLORSPACE_GAMMA
+        passType: 0
+      - keywords: COLOR_GRADING_GAMMA
+        passType: 0
+      - keywords: BLOOM COLOR_GRADING_GAMMA
+        passType: 0
+      - keywords: COLOR_GRADING COLOR_GRADING_GAMMA
+        passType: 0
+      - keywords: BLOOM COLOR_GRADING COLOR_GRADING_GAMMA
+        passType: 0
+  - first: {fileID: 4800000, guid: 93019ece6edf7144e8486025d8c411e1, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: SHADOW_SWITCH
+        passType: 4
+      - keywords: FLASH_SWITCH
+        passType: 4
+      - keywords: FLASH_SWITCH SHADOW_SWITCH
+        passType: 4
+  - first: {fileID: 4800000, guid: 9470482062cfeb947b216d474aa92c2e, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: FOG_LINEAR
+        passType: 0
+  - first: {fileID: 4800000, guid: b61c90fa02a391d4289ea67ab068382b, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: c222af9ca59d0024f8685e778d40981a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: ca17abdc67ff7484d92fb045d47f3b8d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: ca98d2f6a9d4e744ea89c6d24e5ad055, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: FOG_LINEAR
+        passType: 0
+      - keywords: MESH MIRROR_OFF SCALE_OFF
+        passType: 0
+      - keywords: BILLBOARD MIRROR_OFF SCALE_OFF
+        passType: 0
+  - first: {fileID: 4800000, guid: cf253de19e886ff4eb4ff0f5ce9247ff, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL FOG_LINEAR
+        passType: 4
+      - keywords: DIRECTIONAL FOG_LINEAR LIGHTMAP_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: cf945007ef281e8419df3dd837e62b14, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: 
+        passType: 4
+      - keywords: SHADOW_SWITCH
+        passType: 4
+      - keywords: FLASH_SWITCH
+        passType: 4
+      - keywords: FLASH_SWITCH SHADOW_SWITCH
+        passType: 4
+  - first: {fileID: 4800000, guid: d0cabe5ccc4e01c43bc12b872ec5e4b7, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: FOG_LINEAR
+        passType: 0
+  - first: {fileID: 4800000, guid: d248d4d1588851f43a9fa18a4e6f0209, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: da2bf428cf0b1584b9867db28c04669f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: dabeb53b7bdbef941b49c2330f2c056d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: e4cd7ce7346aca24eb3baa9781ee559c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: DIRECTIONAL
+        passType: 0
+      - keywords: DIRECTIONAL LIGHTMAP_ON
+        passType: 0
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+  - first: {fileID: 4800000, guid: ffb14902792a4fb40bc4e98d52e0fba8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: d68ee22c4059a9e42af20dda198927b0, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0

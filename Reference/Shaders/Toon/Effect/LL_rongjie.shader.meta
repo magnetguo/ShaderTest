@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: d174eb209d4e25648a53688a8a414e6c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _rongjie_T: {fileID: 2800000, guid: d62141b35d6382b4dbb3f1342a5d054d, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
